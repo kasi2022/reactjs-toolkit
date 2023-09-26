@@ -4,6 +4,7 @@ import UseState from "./Component/Hooks/Usestate";
 import UseEffect from "./Component/Hooks/useeffect";
 import Landing from "./Component/Landing";
 import Home from "./Component/Screens/Home";
+import SingleForm from "./Component/Form/singleform";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
       <Route path="/" element={<Home/>}/>
       <Route path="/usestate" element={<UseState/>}/>
       <Route path="/useeffect" element={<UseEffect/>}/>
+      <Route path="/singleform" element={<SingleForm/>}/>
+
+      
     </Routes>
     </>
   );

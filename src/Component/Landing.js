@@ -9,6 +9,9 @@ function Landing() {
                 {/* to refere the path we create in the App.js component routing area */}
                 {/* notes "/" refre to home Screen very  important  routing topic */}
                 <li><Link to='/'>Home</Link></li>
+                <li><Link to='/singleform'>SingleForm</Link></li>
+
+                
 
                 
 
