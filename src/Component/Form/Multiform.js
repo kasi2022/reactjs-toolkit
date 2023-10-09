@@ -8,7 +8,6 @@ function Multiform() {
 
     })
     const handeler=(event)=>{
-    
             setUser({...user,[event.target.name]:[event.target.value]})
         
     }
